@@ -60,8 +60,8 @@ func (eng *Engine) Register(name string, handler Handler) error {
 // behavior.
 func New(root string) (*Engine, error) {
 	// Check for unsupported architectures
-	if runtime.GOARCH != "amd64" {
-		return nil, fmt.Errorf("The docker runtime currently only supports amd64 (not %s). This will change in the future. Aborting.", runtime.GOARCH)
+	if runtime.GOARCH != "amd64" && runtime.GOARCH != "386" {
+		return nil, fmt.Errorf("The docker runtime currently only supports amd64 and 386 (not %s). This will change in the future. Aborting.", runtime.GOARCH)
 	}
 	// Check for unsupported kernel versions
 	// FIXME: it would be cleaner to not test for specific versions, but rather
