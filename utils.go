@@ -2,9 +2,9 @@ package docker
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/archive"
-	"github.com/dotcloud/docker/pkg/namesgenerator"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/archive"
+	"github.com/Nerdness/docker/pkg/namesgenerator"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"strconv"
 	"strings"

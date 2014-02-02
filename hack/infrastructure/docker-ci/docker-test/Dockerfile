@@ -9,7 +9,7 @@
 #   This Dockerfile adapts /Dockerfile to enable docker PRs and commits testing
 #   Optional arguments:
 #       [commit]  (default: 'HEAD')
-#       [repo]    (default: 'http://github.com/dotcloud/docker')
+#       [repo]    (default: 'http://github.com/Nerdness/docker')
 #       [branch]  (default: 'master')
 # TO_BUILD:       docker build -t test_docker .
 # TO_RUN:         docker run -privileged test_docker hack/dind test_docker.sh [commit] [repo] [branch]

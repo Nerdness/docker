@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	flag "github.com/dotcloud/docker/pkg/mflag"
+	flag "github.com/Nerdness/docker/pkg/mflag"
 )
 
 var (

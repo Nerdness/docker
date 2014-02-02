@@ -3,7 +3,7 @@ package archive
 import (
 	"archive/tar"
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"os"
 	"path/filepath"

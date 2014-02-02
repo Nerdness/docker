@@ -10,7 +10,7 @@ export PYTHONPATH=$REGISTRY_PATH/test
 
 # Fetch latest docker-registry master
 rm -rf $REGISTRY_PATH
-git clone https://github.com/dotcloud/docker-registry -b master $REGISTRY_PATH
+git clone https://github.com/Nerdness/docker-registry -b master $REGISTRY_PATH
 cd $REGISTRY_PATH
 
 # Generate coverage

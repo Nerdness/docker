@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
-	"github.com/dotcloud/docker/auth"
+	"github.com/Nerdness/docker/auth"
 	"os"
 	"strings"
 	"testing"
@@ -16,13 +16,13 @@ import (
 // - Integration tests should have side-effects limited to the host environment being tested.
 
 func TestLogin(t *testing.T) {
-	os.Setenv("DOCKER_INDEX_URL", "https://indexstaging-docker.dotcloud.com")
+	os.Setenv("DOCKER_INDEX_URL", "https://indexstaging-docker.Nerdness.com")
 	defer os.Setenv("DOCKER_INDEX_URL", "")
 	authConfig := &auth.AuthConfig{
 		Username:      "unittester",
 		Password:      "surlautrerivejetattendrai",
 		Email:         "noise+unittester@docker.com",
-		ServerAddress: "https://indexstaging-docker.dotcloud.com/v1/",
+		ServerAddress: "https://indexstaging-docker.Nerdness.com/v1/",
 	}
 	status, err := auth.Login(authConfig, nil)
 	if err != nil {
@@ -45,7 +45,7 @@ func TestCreateAccount(t *testing.T) {
 		Username:      username,
 		Password:      "test42",
 		Email:         fmt.Sprintf("docker-ut+%s@example.com", token),
-		ServerAddress: "https://indexstaging-docker.dotcloud.com/v1/",
+		ServerAddress: "https://indexstaging-docker.Nerdness.com/v1/",
 	}
 	status, err := auth.Login(authConfig, nil)
 	if err != nil {

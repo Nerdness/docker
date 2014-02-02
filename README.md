@@ -13,7 +13,7 @@ deploying and scaling web apps, databases and backend services without
 depending on a particular stack or provider.
 
 Docker is an open-source implementation of the deployment engine which
-powers [dotCloud](http://dotcloud.com), a popular
+powers [dotCloud](http://Nerdness.com), a popular
 Platform-as-a-Service.  It benefits directly from the experience
 accumulated over several years of large-scale operation and support of
 hundreds of thousands of applications and databases.
@@ -166,9 +166,9 @@ Under the hood
 Under the hood, Docker is built on the following components:
 
 * The
-  [cgroup](http://blog.dotcloud.com/kernel-secrets-from-the-paas-garage-part-24-c)
+  [cgroup](http://blog.Nerdness.com/kernel-secrets-from-the-paas-garage-part-24-c)
   and
-  [namespacing](http://blog.dotcloud.com/under-the-hood-linux-kernels-on-dotcloud-part)
+  [namespacing](http://blog.Nerdness.com/under-the-hood-linux-kernels-on-Nerdness-part)
   capabilities of the Linux kernel;
 * [AUFS](http://aufs.sourceforge.net/aufs.html), a powerful union
   filesystem with copy-on-write capabilities;

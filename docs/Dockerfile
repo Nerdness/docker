@@ -15,5 +15,5 @@ RUN make -C /docs clean docs
 
 WORKDIR /docs/_build/html
 CMD ["python", "-m", "SimpleHTTPServer"]
-# note, EXPOSE is only last because of https://github.com/dotcloud/docker/issues/3525
+# note, EXPOSE is only last because of https://github.com/Nerdness/docker/issues/3525
 EXPOSE 8000

@@ -22,7 +22,7 @@ Check runtime dependencies
 --------------------------
 
 .. DOC COMMENT: this should be kept in sync with
-   https://github.com/dotcloud/docker/blob/master/hack/PACKAGERS.md#runtime-dependencies
+   https://github.com/Nerdness/docker/blob/master/hack/PACKAGERS.md#runtime-dependencies
 
 To run properly, docker needs the following software to be installed at runtime:
 

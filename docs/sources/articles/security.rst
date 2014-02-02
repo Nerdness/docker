@@ -205,7 +205,7 @@ escalate to the host.
 This won't affect regular web apps; but malicious users will find that
 the arsenal at their disposal has shrunk considerably! You can see
 `the list of dropped capabilities in the Docker code
-<https://github.com/dotcloud/docker/blob/v0.5.0/lxc_template.go#L97>`_,
+<https://github.com/Nerdness/docker/blob/v0.5.0/lxc_template.go#L97>`_,
 and a full list of available capabilities in `Linux manpages
 <http://man7.org/linux/man-pages/man7/capabilities.7.html>`_.
 

@@ -36,11 +36,11 @@ It can be as simple as this to create an Ubuntu base image::
 There are more example scripts for creating base images in the
 Docker GitHub Repo:
 
-* `BusyBox <https://github.com/dotcloud/docker/blob/master/contrib/mkimage-busybox.sh>`_
+* `BusyBox <https://github.com/Nerdness/docker/blob/master/contrib/mkimage-busybox.sh>`_
 * CentOS / Scientific Linux CERN (SLC) `on Debian/Ubuntu
-  <https://github.com/dotcloud/docker/blob/master/contrib/mkimage-rinse.sh>`_
+  <https://github.com/Nerdness/docker/blob/master/contrib/mkimage-rinse.sh>`_
   or
   `on CentOS/RHEL/SLC/etc.
-  <https://github.com/dotcloud/docker/blob/master/contrib/mkimage-yum.sh>`_
+  <https://github.com/Nerdness/docker/blob/master/contrib/mkimage-yum.sh>`_
 * `Debian / Ubuntu
-  <https://github.com/dotcloud/docker/blob/master/contrib/mkimage-debootstrap.sh>`_
+  <https://github.com/Nerdness/docker/blob/master/contrib/mkimage-debootstrap.sh>`_

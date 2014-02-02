@@ -95,7 +95,7 @@ Docker that way too. Vagrant 1.1 or higher is required.
 
    ::
 
-      git clone https://github.com/dotcloud/docker.git
+      git clone https://github.com/Nerdness/docker.git
 
 
 4. Check your AWS environment.

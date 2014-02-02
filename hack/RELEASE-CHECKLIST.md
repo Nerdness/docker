@@ -90,7 +90,7 @@ the docs are in `docs/README.md`.
 git add VERSION CHANGELOG.md
 git commit -m "Bump version to $VERSION"
 git push origin bump_$VERSION
-echo "https://github.com/dotcloud/docker/compare/release...bump_$VERSION"
+echo "https://github.com/Nerdness/docker/compare/release...bump_$VERSION"
 ```
 
 That last command will give you the proper link to visit to ensure that you
@@ -103,7 +103,7 @@ open the PR against the "release" branch instead of accidentally against
 
 To run this you will need access to the release credentials.
 Get them from [the infrastructure maintainers](
-https://github.com/dotcloud/docker/blob/master/hack/infrastructure/MAINTAINERS).
+https://github.com/Nerdness/docker/blob/master/hack/infrastructure/MAINTAINERS).
 
 ```bash
 docker build -t docker .
@@ -188,7 +188,7 @@ echo ${VERSION#v}-dev > VERSION
 git add VERSION
 git commit -m "Change version to $(cat VERSION)"
 git push origin merge_release_$VERSION
-echo "https://github.com/dotcloud/docker/compare/master...merge_release_$VERSION"
+echo "https://github.com/Nerdness/docker/compare/master...merge_release_$VERSION"
 ```
 
 Again, get two maintainers to validate, then merge, then push that pretty

@@ -2,8 +2,8 @@ package chroot
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/execdriver"
-	"github.com/dotcloud/docker/pkg/mount"
+	"github.com/Nerdness/docker/execdriver"
+	"github.com/Nerdness/docker/pkg/mount"
 	"os"
 	"os/exec"
 	"syscall"

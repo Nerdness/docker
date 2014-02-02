@@ -40,7 +40,7 @@ help:
 #	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 	@echo "  docs       to build the docs and copy the static files to the outputdir"
 	@echo "  server     to serve the docs in your browser under \`http://localhost:8000\`"
-	@echo "  publish    to publish the app to dotcloud"
+	@echo "  publish    to publish the app to Nerdness"
 
 clean:
 	-rm -rf $(BUILDDIR)/*
@@ -60,15 +60,15 @@ site:
 	@echo "The Website pages are in $(BUILDDIR)/site."
 
 connect:
-	@echo connecting dotcloud to www.docker.io website, make sure to use user 1
+	@echo connecting Nerdness to www.docker.io website, make sure to use user 1
 	@echo or create your own "dockerwebsite" app
 	@cd $(BUILDDIR)/website/ ; \
-	dotcloud connect dockerwebsite ; \
-	dotcloud list
+	Nerdness connect dockerwebsite ; \
+	Nerdness list
 
 push:
 	@cd $(BUILDDIR)/website/ ; \
-	dotcloud push
+	Nerdness push
 
 $(VERSIONS):
 	@echo "Hello world"

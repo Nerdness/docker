@@ -64,7 +64,7 @@ installed.
 
 .. code-block:: bash
 
-	git clone https://github.com/dotcloud/docker.git 
+	git clone https://github.com/Nerdness/docker.git 
 	cd docker
 	vagrant up
 

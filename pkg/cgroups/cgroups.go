@@ -3,7 +3,7 @@ package cgroups
 import (
 	"bufio"
 	"fmt"
-	"github.com/dotcloud/docker/pkg/mount"
+	"github.com/Nerdness/docker/pkg/mount"
 	"io"
 	"os"
 	"strings"

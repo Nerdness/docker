@@ -215,7 +215,7 @@ Inspect a container
 				"Bridge": "",
 				"PortMapping": null
 			},
-			"SysInitPath": "/home/kitty/go/src/github.com/dotcloud/docker/bin/docker",
+			"SysInitPath": "/home/kitty/go/src/github.com/Nerdness/docker/bin/docker",
 			"ResolvConfPath": "/etc/resolv.conf",
 			"Volumes": {}
 	   }

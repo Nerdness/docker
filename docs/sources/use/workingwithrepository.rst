@@ -192,7 +192,7 @@ Private Repositories
 
 Right now (version 0.6), private repositories are only possible by
 hosting `your own registry
-<https://github.com/dotcloud/docker-registry>`_.  To push or pull to a
+<https://github.com/Nerdness/docker-registry>`_.  To push or pull to a
 repository on your own registry, you must prefix the tag with the
 address of the registry's host, like this:
 

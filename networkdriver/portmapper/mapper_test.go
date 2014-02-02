@@ -1,8 +1,8 @@
 package portmapper
 
 import (
-	"github.com/dotcloud/docker/pkg/iptables"
-	"github.com/dotcloud/docker/proxy"
+	"github.com/Nerdness/docker/pkg/iptables"
+	"github.com/Nerdness/docker/proxy"
 	"net"
 	"testing"
 )

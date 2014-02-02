@@ -2,8 +2,8 @@ package graphdriver
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/archive"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/archive"
+	"github.com/Nerdness/docker/utils"
 	"os"
 	"path"
 )

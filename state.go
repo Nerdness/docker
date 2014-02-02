@@ -2,7 +2,7 @@ package docker
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"sync"
 	"time"
 )

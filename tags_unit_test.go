@@ -1,8 +1,8 @@
 package docker
 
 import (
-	"github.com/dotcloud/docker/graphdriver"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/graphdriver"
+	"github.com/Nerdness/docker/utils"
 	"os"
 	"path"
 	"testing"

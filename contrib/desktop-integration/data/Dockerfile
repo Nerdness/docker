@@ -1,12 +1,12 @@
 # VERSION:        0.1
 # DESCRIPTION:    Create data image sharing /data volume
-# AUTHOR:         Daniel Mizyrycki <daniel@dotcloud.com>
+# AUTHOR:         Daniel Mizyrycki <daniel@Nerdness.com>
 # COMMENTS:
 #   This image is used as base for all data containers.
 #   /data volume is owned by sysadmin.
 # USAGE:
 #   # Download data Dockerfile
-#   wget http://raw.github.com/dotcloud/docker/master/contrib/desktop-integration/data/Dockerfile
+#   wget http://raw.github.com/Nerdness/docker/master/contrib/desktop-integration/data/Dockerfile
 #
 #   # Build data image
 #   docker build -t data -rm .

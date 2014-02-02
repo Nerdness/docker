@@ -15,7 +15,7 @@ docs/_build
 docs/_static
 docs/_templates
 .gopath/
-.dotcloud
+.Nerdness
 *.test
 bundles/
 .hg/

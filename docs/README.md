@@ -14,7 +14,7 @@ The HTML files are built and hosted on
 [readthedocs.org](https://readthedocs.org/projects/docker/), appearing
 via proxy on https://docs.docker.io. The HTML files update
 automatically after each change to the master or release branch of the
-[docker files on GitHub](https://github.com/dotcloud/docker) thanks to
+[docker files on GitHub](https://github.com/Nerdness/docker) thanks to
 post-commit hooks. The "release" branch maps to the "latest"
 documentation and the "master" branch maps to the "master"
 documentation. 

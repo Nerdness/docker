@@ -2,10 +2,10 @@ package docker
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker"
-	"github.com/dotcloud/docker/archive"
-	"github.com/dotcloud/docker/engine"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker"
+	"github.com/Nerdness/docker/archive"
+	"github.com/Nerdness/docker/engine"
+	"github.com/Nerdness/docker/utils"
 	"io/ioutil"
 	"net"
 	"net/http"

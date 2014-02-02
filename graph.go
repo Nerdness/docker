@@ -2,9 +2,9 @@ package docker
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/archive"
-	"github.com/dotcloud/docker/graphdriver"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/archive"
+	"github.com/Nerdness/docker/graphdriver"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"io/ioutil"
 	"os"

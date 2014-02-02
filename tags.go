@@ -3,7 +3,7 @@ package docker
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"io/ioutil"
 	"os"
 	"path/filepath"

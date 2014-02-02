@@ -2,14 +2,14 @@ package lxc
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/engine"
-	"github.com/dotcloud/docker/networkdriver"
-	"github.com/dotcloud/docker/networkdriver/ipallocator"
-	"github.com/dotcloud/docker/networkdriver/portallocator"
-	"github.com/dotcloud/docker/networkdriver/portmapper"
-	"github.com/dotcloud/docker/pkg/iptables"
-	"github.com/dotcloud/docker/pkg/netlink"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/engine"
+	"github.com/Nerdness/docker/networkdriver"
+	"github.com/Nerdness/docker/networkdriver/ipallocator"
+	"github.com/Nerdness/docker/networkdriver/portallocator"
+	"github.com/Nerdness/docker/networkdriver/portmapper"
+	"github.com/Nerdness/docker/pkg/iptables"
+	"github.com/Nerdness/docker/pkg/netlink"
+	"github.com/Nerdness/docker/utils"
 	"io/ioutil"
 	"log"
 	"net"
@@ -133,7 +133,7 @@ func InitDriver(job *engine.Job) engine.Status {
 
 	bridgeNetwork = network
 
-	// https://github.com/dotcloud/docker/issues/2768
+	// https://github.com/Nerdness/docker/issues/2768
 	job.Eng.Hack_SetGlobalVar("httpapi.bridgeIP", bridgeNetwork.IP)
 
 	for name, f := range map[string]engine.Handler{

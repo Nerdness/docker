@@ -2,11 +2,11 @@
 
 set -x
 COMMIT=${1-HEAD}
-REPO=${2-http://github.com/dotcloud/docker}
+REPO=${2-http://github.com/Nerdness/docker}
 BRANCH=${3-master}
 
 # Compute test paths
-DOCKER_PATH=/go/src/github.com/dotcloud/docker
+DOCKER_PATH=/go/src/github.com/Nerdness/docker
 
 # Timestamp
 echo
@@ -15,7 +15,7 @@ date; echo
 # Fetch latest master
 cd /
 rm -rf /go
-git clone -q -b master http://github.com/dotcloud/docker $DOCKER_PATH
+git clone -q -b master http://github.com/Nerdness/docker $DOCKER_PATH
 cd $DOCKER_PATH
 
 # Merge commit

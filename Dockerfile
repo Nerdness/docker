@@ -6,7 +6,7 @@
 # docker build -t docker .
 #
 # # Mount your source in an interactive container for quick testing:
-# docker run -v `pwd`:/go/src/github.com/dotcloud/docker -privileged -i -t docker bash
+# docker run -v `pwd`:/go/src/github.com/Nerdness/docker -privileged -i -t docker bash
 #
 # # Run the test suite:
 # docker run -privileged docker hack/make.sh test
@@ -64,7 +64,7 @@ RUN	cd /usr/local/lvm2 && ./configure --enable-static_link && make device-mapper
 # Install Go
 RUN	curl -s https://go.googlecode.com/files/go1.2.src.tar.gz | tar -v -C /usr/local -xz
 ENV	PATH	/usr/local/go/bin:$PATH
-ENV	GOPATH	/go:/go/src/github.com/dotcloud/docker/vendor
+ENV	GOPATH	/go:/go/src/github.com/Nerdness/docker/vendor
 RUN	cd /usr/local/go/src && ./make.bash --no-clean 2>&1
 
 # Compile Go for cross compilation
@@ -86,10 +86,10 @@ RUN	/bin/echo -e '[default]\naccess_key=$AWS_ACCESS_KEY\nsecret_key=$AWS_SECRET_
 RUN	git config --global user.email 'docker-dummy@example.com'
 
 VOLUME	/var/lib/docker
-WORKDIR	/go/src/github.com/dotcloud/docker
+WORKDIR	/go/src/github.com/Nerdness/docker
 
 # Wrap all commands in the "docker-in-docker" script to allow nested containers
 ENTRYPOINT	["hack/dind"]
 
 # Upload docker source
-ADD	.	/go/src/github.com/dotcloud/docker
+ADD	.	/go/src/github.com/Nerdness/docker

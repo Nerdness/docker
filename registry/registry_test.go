@@ -1,8 +1,8 @@
 package registry
 
 import (
-	"github.com/dotcloud/docker/auth"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/auth"
+	"github.com/Nerdness/docker/utils"
 	"strings"
 	"testing"
 )
@@ -131,7 +131,7 @@ func TestPushImageLayerRegistry(t *testing.T) {
 }
 
 func TestResolveRepositoryName(t *testing.T) {
-	_, _, err := ResolveRepositoryName("https://github.com/dotcloud/docker")
+	_, _, err := ResolveRepositoryName("https://github.com/Nerdness/docker")
 	assertEqual(t, err, ErrInvalidRepositoryName, "Expected error invalid repo name")
 	ep, repo, err := ResolveRepositoryName("fooo/bar")
 	if err != nil {

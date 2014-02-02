@@ -93,7 +93,7 @@ The password is ``screencast``.
          # *ifconfig* is deprecated, better use *ip addr show* now
          $ ifconfig
          $ ssh root@192.168.33.10 -p 49154
-         # Thanks for watching, Thatcher thatcher@dotcloud.com
+         # Thanks for watching, Thatcher thatcher@Nerdness.com
          
 Update:
 -------

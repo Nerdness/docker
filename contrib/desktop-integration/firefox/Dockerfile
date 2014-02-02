@@ -1,13 +1,13 @@
 # VERSION:        0.7
 # DESCRIPTION:    Create firefox container with its dependencies
-# AUTHOR:         Daniel Mizyrycki <daniel@dotcloud.com>
+# AUTHOR:         Daniel Mizyrycki <daniel@Nerdness.com>
 # COMMENTS:
 #   This file describes how to build a Firefox container with all
 #   dependencies installed. It uses native X11 unix socket and alsa
 #   sound devices. Tested on Debian 7.2
 # USAGE:
 #   # Download Firefox Dockerfile
-#   wget http://raw.github.com/dotcloud/docker/master/contrib/desktop-integration/firefox/Dockerfile
+#   wget http://raw.github.com/Nerdness/docker/master/contrib/desktop-integration/firefox/Dockerfile
 #
 #   # Build firefox image
 #   docker build -t firefox -rm .

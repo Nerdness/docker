@@ -8,14 +8,14 @@ function random {
 
 # Compute test paths
 BASE_PATH=`pwd`/test_docker_$(random 12)
-DOCKER_PATH=$BASE_PATH/go/src/github.com/dotcloud/docker
+DOCKER_PATH=$BASE_PATH/go/src/github.com/Nerdness/docker
 export GOPATH=$BASE_PATH/go:$DOCKER_PATH/vendor
 
 # Fetch latest master
 mkdir -p $DOCKER_PATH
 cd $DOCKER_PATH
 git init .
-git fetch -q http://github.com/dotcloud/docker master
+git fetch -q http://github.com/Nerdness/docker master
 git reset --hard FETCH_HEAD
 
 # Fetch go coverage
@@ -24,7 +24,7 @@ GOPATH=$BASE_PATH/go go get github.com/axw/gocov/gocov
 sudo -E GOPATH=$GOPATH ./bin/gocov test -deps -exclude-goroot -v\
  -exclude github.com/gorilla/context,github.com/gorilla/mux,github.com/kr/pty,\
 code.google.com/p/go.net/websocket\
- github.com/dotcloud/docker | ./bin/gocov report; exit_status=$?
+ github.com/Nerdness/docker | ./bin/gocov report; exit_status=$?
 
 # Cleanup testing directory
 rm -rf $BASE_PATH

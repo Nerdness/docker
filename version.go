@@ -1,8 +1,8 @@
 package docker
 
 import (
-	"github.com/dotcloud/docker/engine"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/engine"
+	"github.com/Nerdness/docker/utils"
 	"runtime"
 )
 

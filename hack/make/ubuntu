@@ -9,7 +9,7 @@ fi
 
 PACKAGE_ARCHITECTURE="$(dpkg-architecture -qDEB_HOST_ARCH)"
 PACKAGE_URL="http://www.docker.io/"
-PACKAGE_MAINTAINER="docker@dotcloud.com"
+PACKAGE_MAINTAINER="docker@Nerdness.com"
 PACKAGE_DESCRIPTION="Linux container runtime
 Docker complements LXC with a high-level API which operates at the process
 level. It runs unix processes with strong guarantees of isolation and

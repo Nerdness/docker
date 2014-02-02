@@ -1,7 +1,7 @@
 package proxy
 
 import (
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"log"
 	"net"

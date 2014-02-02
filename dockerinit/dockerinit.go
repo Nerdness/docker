@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dotcloud/docker/sysinit"
+	"github.com/Nerdness/docker/sysinit"
 )
 
 var (

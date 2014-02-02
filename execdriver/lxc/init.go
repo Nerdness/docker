@@ -2,9 +2,9 @@ package lxc
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/execdriver"
-	"github.com/dotcloud/docker/pkg/netlink"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/execdriver"
+	"github.com/Nerdness/docker/pkg/netlink"
+	"github.com/Nerdness/docker/utils"
 	"github.com/syndtr/gocapability/capability"
 	"net"
 	"os"

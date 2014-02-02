@@ -2,8 +2,8 @@ package docker
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/api"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/api"
+	"github.com/Nerdness/docker/utils"
 	"os"
 	"path/filepath"
 	"regexp"

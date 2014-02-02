@@ -3,8 +3,8 @@ package docker
 import (
 	"bufio"
 	"fmt"
-	"github.com/dotcloud/docker"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"io/ioutil"
 	"os"

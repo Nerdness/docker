@@ -61,7 +61,7 @@ Bind Docker to another host/port or a Unix socket
    port or Unix *docker* user group will increase your security risks
    by allowing non-root users to potentially gain *root* access on the
    host (`e.g. #1369
-   <https://github.com/dotcloud/docker/issues/1369>`_). Make sure you
+   <https://github.com/Nerdness/docker/issues/1369>`_). Make sure you
    control access to ``docker``.
 
 With ``-H`` it is possible to make the Docker daemon to listen on a

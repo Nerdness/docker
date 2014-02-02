@@ -105,7 +105,7 @@ the ``-H`` flag for the client.
 To run the daemon with `systemd socket activation <http://0pointer.de/blog/projects/socket-activation.html>`_, use ``docker -d -H fd://``.
 Using ``fd://`` will work perfectly for most setups but you can also specify individual sockets too ``docker -d -H fd://3``.
 If the specified socket activated files aren't found then docker will exit.
-You can find examples of using systemd socket activation with docker and systemd in the `docker source tree <https://github.com/dotcloud/docker/blob/master/contrib/init/systemd/socket-activation/>`_.
+You can find examples of using systemd socket activation with docker and systemd in the `docker source tree <https://github.com/Nerdness/docker/blob/master/contrib/init/systemd/socket-activation/>`_.
 
 .. _cli_attach:
 
@@ -406,9 +406,9 @@ For example:
 	A /go
 	A /go/src
 	A /go/src/github.com
-	A /go/src/github.com/dotcloud
-	A /go/src/github.com/dotcloud/docker
-	A /go/src/github.com/dotcloud/docker/.git
+	A /go/src/github.com/Nerdness
+	A /go/src/github.com/Nerdness/docker
+	A /go/src/github.com/Nerdness/docker/.git
 	....
 
 .. _cli_events:
@@ -511,9 +511,9 @@ To see how the ``docker:latest`` image was built:
 
 	$ docker history docker
 	ID                  CREATED             CREATED BY
-	docker:latest       19 hours ago        /bin/sh -c #(nop) ADD . in /go/src/github.com/dotcloud/docker
+	docker:latest       19 hours ago        /bin/sh -c #(nop) ADD . in /go/src/github.com/Nerdness/docker
 	cf5f2467662d        2 weeks ago         /bin/sh -c #(nop) ENTRYPOINT ["hack/dind"]
-	3538fbe372bf        2 weeks ago         /bin/sh -c #(nop) WORKDIR /go/src/github.com/dotcloud/docker
+	3538fbe372bf        2 weeks ago         /bin/sh -c #(nop) WORKDIR /go/src/github.com/Nerdness/docker
 	7450f65072e5        2 weeks ago         /bin/sh -c #(nop) VOLUME /var/lib/docker
 	b79d62b97328        2 weeks ago         /bin/sh -c apt-get install -y -q lxc
 	36714852a550        2 weeks ago         /bin/sh -c apt-get install -y -q iptables
@@ -524,7 +524,7 @@ To see how the ``docker:latest`` image was built:
 	d9bc04add907        2 weeks ago         /bin/sh -c apt-get install -y -q reprepro dpkg-sig
 	e74f4760fa70        2 weeks ago         /bin/sh -c gem install --no-rdoc --no-ri fpm
 	1e43224726eb        2 weeks ago         /bin/sh -c apt-get install -y -q ruby1.9.3 rubygems libffi-dev
-	460953ae9d7f        2 weeks ago         /bin/sh -c #(nop) ENV GOPATH=/go:/go/src/github.com/dotcloud/docker/vendor
+	460953ae9d7f        2 weeks ago         /bin/sh -c #(nop) ENV GOPATH=/go:/go/src/github.com/Nerdness/docker/vendor
 	8b63eb1d666b        2 weeks ago         /bin/sh -c #(nop) ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/goroot/bin
 	3087f3bcedf2        2 weeks ago         /bin/sh -c #(nop) ENV GOROOT=/goroot
 	635840d198e5        2 weeks ago         /bin/sh -c cd /goroot/src && ./make.bash
@@ -536,7 +536,7 @@ To see how the ``docker:latest`` image was built:
 	17a64374afa7        2 weeks ago         /bin/sh -c apt-get install -y -q curl
 	d5e85dc5b1d8        2 weeks ago         /bin/sh -c apt-get update
 	13e642467c11        2 weeks ago         /bin/sh -c echo 'deb http://archive.ubuntu.com/ubuntu precise main universe' > /etc/apt/sources.list
-	ae6dde92a94e        2 weeks ago         /bin/sh -c #(nop) MAINTAINER Solomon Hykes <solomon@dotcloud.com>
+	ae6dde92a94e        2 weeks ago         /bin/sh -c #(nop) MAINTAINER Solomon Hykes <solomon@Nerdness.com>
 	ubuntu:12.04        6 months ago
 
 .. _cli_images:

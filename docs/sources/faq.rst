@@ -18,7 +18,7 @@ What open source license are you using?
 .......................................
 
    We are using the Apache License Version 2.0, see it here:
-   https://github.com/dotcloud/docker/blob/master/LICENSE
+   https://github.com/Nerdness/docker/blob/master/LICENSE
 
 Does Docker run on Mac OS X or Windows?
 .......................................
@@ -203,9 +203,9 @@ Where can I find more answers?
 
     .. _Docker user mailinglist: https://groups.google.com/d/forum/docker-user
     .. _Docker developer mailinglist: https://groups.google.com/d/forum/docker-dev
-    .. _the repo: http://www.github.com/dotcloud/docker
+    .. _the repo: http://www.github.com/Nerdness/docker
     .. _IRC, docker on freenode: irc://chat.freenode.net#docker
-    .. _Github: http://www.github.com/dotcloud/docker
+    .. _Github: http://www.github.com/Nerdness/docker
     .. _Ask questions on Stackoverflow: http://stackoverflow.com/search?q=docker
     .. _Join the conversation on Twitter: http://twitter.com/docker
 

@@ -29,7 +29,7 @@ Step 2: Check out the Source
 
 .. code-block:: bash
 
-    git clone http://git@github.com/dotcloud/docker
+    git clone http://git@github.com/Nerdness/docker
     cd docker
 
 To checkout a different revision just use ``git checkout`` with the name of branch or revision number.
@@ -88,7 +88,7 @@ the command (either edit the Makefile, or run the step manually):
 
 .. code-block:: bash
 
-	sudo docker run -dns 8.8.8.8 -privileged -v `pwd`:/go/src/github.com/dotcloud/docker docker hack/make.sh test
+	sudo docker run -dns 8.8.8.8 -privileged -v `pwd`:/go/src/github.com/Nerdness/docker docker hack/make.sh test
 
 If the test are successful then the tail of the output should look something like this
 
@@ -118,7 +118,7 @@ If the test are successful then the tail of the output should look something lik
 	=== RUN TestDependencyGraph
 	--- PASS: TestDependencyGraph (0.00 seconds)
 	PASS
-	ok  	github.com/dotcloud/docker/utils	0.017s
+	ok  	github.com/Nerdness/docker/utils	0.017s
 
 
 

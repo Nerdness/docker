@@ -15,8 +15,8 @@ exec("""for k in d: print "export {0}=\\"{1}\\"".format(k,d[k])""")')
 set -x
 cd /
 rm -rf /go
-git clone -q -b master http://github.com/dotcloud/docker /go/src/github.com/dotcloud/docker
-cd /go/src/github.com/dotcloud/docker
+git clone -q -b master http://github.com/Nerdness/docker /go/src/github.com/Nerdness/docker
+cd /go/src/github.com/Nerdness/docker
 
 # Launch docker daemon using dind inside the container
 /usr/bin/docker version

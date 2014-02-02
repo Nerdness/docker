@@ -6,7 +6,7 @@ feels wrong or incomplete.
 
 ## Reporting Issues
 
-When reporting [issues](https://github.com/dotcloud/docker/issues) 
+When reporting [issues](https://github.com/Nerdness/docker/issues) 
 on GitHub please include your host OS ( Ubuntu 12.04, Fedora 19, etc... )
 and the output of `docker version` along with the output of `docker info` if possible.  
 This information will help us review and fix your issue faster.
@@ -46,7 +46,7 @@ else is working on the same thing.
 ### Create issues...
 
 Any significant improvement should be documented as [a GitHub
-issue](https://github.com/dotcloud/docker/issues) before anybody
+issue](https://github.com/Nerdness/docker/issues) before anybody
 starts working on it.
 
 ### ...but check for existing issues first!
@@ -149,7 +149,7 @@ One way to automate this, is customise your get ``commit.template`` by adding
 a ``prepare-commit-msg`` hook to your docker checkout:
 
 ```
-curl -o .git/hooks/prepare-commit-msg https://raw.github.com/dotcloud/docker/master/contrib/prepare-commit-msg.hook && chmod +x .git/hooks/prepare-commit-msg
+curl -o .git/hooks/prepare-commit-msg https://raw.github.com/Nerdness/docker/master/contrib/prepare-commit-msg.hook && chmod +x .git/hooks/prepare-commit-msg
 ``
 
 * Note: the above script expects to find your GitHub user name in ``git config --get github.user``

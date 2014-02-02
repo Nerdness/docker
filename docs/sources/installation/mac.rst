@@ -33,7 +33,7 @@ Spin it up
 
    .. code-block:: bash
 
-      git clone https://github.com/dotcloud/docker.git
+      git clone https://github.com/Nerdness/docker.git
 
 2. Change directory to docker
 

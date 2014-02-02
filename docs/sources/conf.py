@@ -43,7 +43,7 @@ html_additional_pages = {
 extensions = ['sphinxcontrib.httpdomain', 'sphinx.ext.extlinks']
 
 # Configure extlinks
-extlinks = { 'issue': ('https://github.com/dotcloud/docker/issues/%s',
+extlinks = { 'issue': ('https://github.com/Nerdness/docker/issues/%s',
 	               'Issue ') }
 
 # Add any paths that contain templates here, relative to this directory.

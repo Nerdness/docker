@@ -5,7 +5,7 @@ package devmapper
 import (
 	"errors"
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"runtime"
 	"syscall"
 )

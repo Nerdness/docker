@@ -6,7 +6,7 @@ set -e
 #
 # Requirements:
 # - The current directory should be a checkout of the docker source code
-#   (http://github.com/dotcloud/docker). Whatever version is checked out
+#   (http://github.com/Nerdness/docker). Whatever version is checked out
 #   will be built.
 # - The VERSION file, at the root of the repository, should exist, and
 #   will be used as Docker binary version and package version.
@@ -25,7 +25,7 @@ set -o pipefail
 
 # We're a nice, sexy, little shell script, and people might try to run us;
 # but really, they shouldn't. We want to be in a container!
-if [ "$(pwd)" != '/go/src/github.com/dotcloud/docker' ] || [ -z "$DOCKER_CROSSPLATFORMS" ]; then
+if [ "$(pwd)" != '/go/src/github.com/Nerdness/docker' ] || [ -z "$DOCKER_CROSSPLATFORMS" ]; then
 	{
 		echo "# WARNING! I don't seem to be running in the Docker container."
 		echo "# The result of this command might be an incorrect build, and will not be"
@@ -70,7 +70,7 @@ fi
 
 # Use these flags when compiling the tests and final binary
 LDFLAGS='-X main.GITCOMMIT "'$GITCOMMIT'" -X main.VERSION "'$VERSION'" -w'
-LDFLAGS_STATIC='-X github.com/dotcloud/docker/utils.IAMSTATIC true -linkmode external -extldflags "-lpthread -static -Wl,--unresolved-symbols=ignore-in-object-files"'
+LDFLAGS_STATIC='-X github.com/Nerdness/docker/utils.IAMSTATIC true -linkmode external -extldflags "-lpthread -static -Wl,--unresolved-symbols=ignore-in-object-files"'
 BUILDFLAGS='-tags netgo -a'
 
 HAVE_GO_TEST_COVER=

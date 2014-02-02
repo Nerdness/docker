@@ -4,7 +4,7 @@ package devmapper
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/graphdriver"
+	"github.com/Nerdness/docker/graphdriver"
 	"io/ioutil"
 	"path"
 	"runtime"

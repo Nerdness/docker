@@ -99,7 +99,7 @@ configurable::
 
 If you do not specify ``-a`` then Docker will `attach everything
 (stdin,stdout,stderr)
-<https://github.com/dotcloud/docker/blob/75a7f4d90cde0295bcfb7213004abce8d4779b75/commands.go#L1797>`_. You
+<https://github.com/Nerdness/docker/blob/75a7f4d90cde0295bcfb7213004abce8d4779b75/commands.go#L1797>`_. You
 can specify to which of the three standard streams (``stdin``, ``stdout``,
 ``stderr``) you'd like to connect instead, as in::
 
@@ -217,7 +217,7 @@ future, a given host's Docker daemon may not use LXC, so this is an
 implementation-specific configuration meant for operators already
 familiar with using LXC directly.
 
-.. _lxc-template.go: https://github.com/dotcloud/docker/blob/master/execdriver/lxc/lxc_template.go
+.. _lxc-template.go: https://github.com/Nerdness/docker/blob/master/execdriver/lxc/lxc_template.go
 
 
 Overriding ``Dockerfile`` Image Defaults

@@ -449,7 +449,7 @@ User Register
         Accept: application/json
         Content-Type: application/json
 
-        {"email": "sam@dotcloud.com",
+        {"email": "sam@Nerdness.com",
          "password": "toto42",
          "username": "foobar"'}
 
@@ -492,7 +492,7 @@ Update User
         Content-Type: application/json
         Authorization: Basic akmklmasadalkm==
 
-        {"email": "sam@dotcloud.com",
+        {"email": "sam@Nerdness.com",
          "password": "toto42"}
 
     :parameter username: username for the person you want to update

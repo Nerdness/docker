@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"github.com/dotcloud/docker/archive"
+	"github.com/Nerdness/docker/archive"
 	"io/ioutil"
 	"os"
 	"path"

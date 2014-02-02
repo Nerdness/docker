@@ -175,7 +175,7 @@
 * Make Tianon the hack maintainer
 * Update mkimage-debootstrap with more tweaks for keeping images small
 * Use https to get the install script
-* Remove vendored dotcloud/tar now that Go 1.2 has been released
+* Remove vendored Nerdness/tar now that Go 1.2 has been released
 
 ## 0.7.1 (2013-12-05)
 

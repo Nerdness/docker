@@ -26,8 +26,8 @@ failed_commits = 0
 for commit in commits:
 	commit['message'] = commit['message'][1:]
 	# trim off our '.' that exists just to prevent fun YAML parsing issues
-	# see https://github.com/dotcloud/docker/pull/3836#issuecomment-33723094
-	# and https://travis-ci.org/dotcloud/docker/builds/17926783
+	# see https://github.com/Nerdness/docker/pull/3836#issuecomment-33723094
+	# and https://travis-ci.org/Nerdness/docker/builds/17926783
 	
 	commit['stat'] = subprocess.check_output([
 		'git', 'log', '--format=format:', '--max-count=1',

@@ -3,7 +3,7 @@ package registry
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"github.com/gorilla/mux"
 	"io"
 	"io/ioutil"

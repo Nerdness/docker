@@ -12,7 +12,7 @@ before_script:
   - env | sort
   - sudo apt-get update -qq
   - sudo apt-get install -qq python-yaml
-  - git remote add upstream git://github.com/dotcloud/docker.git
+  - git remote add upstream git://github.com/Nerdness/docker.git
   - upstream=master;
     if [ "$TRAVIS_PULL_REQUEST" != false ]; then
       upstream=$TRAVIS_BRANCH;

@@ -377,7 +377,7 @@ What's new
 Initial version
 
 
-.. _a8ae398: https://github.com/dotcloud/docker/commit/a8ae398bf52e97148ee7bd0d5868de2e15bd297f
-.. _8d73740: https://github.com/dotcloud/docker/commit/8d73740343778651c09160cde9661f5f387b36f4
-.. _2e7649b: https://github.com/dotcloud/docker/commit/2e7649beda7c820793bd46766cbc2cfeace7b168
-.. _51f6c4a: https://github.com/dotcloud/docker/commit/51f6c4a7372450d164c61e0054daf0223ddbd909
+.. _a8ae398: https://github.com/Nerdness/docker/commit/a8ae398bf52e97148ee7bd0d5868de2e15bd297f
+.. _8d73740: https://github.com/Nerdness/docker/commit/8d73740343778651c09160cde9661f5f387b36f4
+.. _2e7649b: https://github.com/Nerdness/docker/commit/2e7649beda7c820793bd46766cbc2cfeace7b168
+.. _51f6c4a: https://github.com/Nerdness/docker/commit/51f6c4a7372450d164c61e0054daf0223ddbd909

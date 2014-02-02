@@ -395,7 +395,7 @@ _docker_ps()
 		--since-id|--before-id)
 			COMPREPLY=( $( compgen -W "$( __docker_q ps -a -q )" -- "$cur" ) )
 			# TODO replace this with __docker_containers_all
-			# see https://github.com/dotcloud/docker/issues/3565
+			# see https://github.com/Nerdness/docker/issues/3565
 			return
 			;;
 		-n)
@@ -443,7 +443,7 @@ _docker_push()
 	if [ $cword -eq $counter ]; then
 		__docker_image_repos
 		# TODO replace this with __docker_image_repos_and_tags
-		# see https://github.com/dotcloud/docker/issues/3411
+		# see https://github.com/Nerdness/docker/issues/3411
 	fi
 }
 

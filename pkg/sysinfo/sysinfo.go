@@ -1,7 +1,7 @@
 package sysinfo
 
 import (
-	"github.com/dotcloud/docker/pkg/cgroups"
+	"github.com/Nerdness/docker/pkg/cgroups"
 	"io/ioutil"
 	"log"
 	"os"

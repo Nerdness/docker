@@ -40,7 +40,7 @@ To build docker, you will need the following system dependencies
 * SQLite version 3.7.9 or later
 * libdevmapper version 1.02.68-cvs (2012-01-26) or later from lvm2 version 2.02.89 or later
 * A clean checkout of the source must be added to a valid Go [workspace](http://golang.org/doc/code.html#Workspaces)
-under the path *src/github.com/dotcloud/docker*.
+under the path *src/github.com/Nerdness/docker*.
 
 ## Go dependencies
 

@@ -6,7 +6,7 @@
 #
 
 FROM		ubuntu:12.10
-MAINTAINER	Guillaume J. Charmes <guillaume@dotcloud.com>
+MAINTAINER	Guillaume J. Charmes <guillaume@Nerdness.com>
 
 RUN		apt-get update && apt-get install -y wget git mercurial
 
@@ -19,7 +19,7 @@ ENV		GOROOT	  /goroot
 ENV		GOPATH	  /go
 ENV		PATH	  $GOROOT/bin:$PATH
 
-RUN		go get github.com/dotcloud/docker && cd /go/src/github.com/dotcloud/docker && git checkout v0.6.3
+RUN		go get github.com/Nerdness/docker && cd /go/src/github.com/Nerdness/docker && git checkout v0.6.3
 ADD		manager.go	/manager/
 RUN		cd /manager && go build -o /usr/bin/manager
 

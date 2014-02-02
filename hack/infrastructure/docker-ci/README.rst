@@ -20,7 +20,7 @@ by Jerome Petazzoni.
 
 https://github.com/jpetazzo/dind
 
-Docker's buildbot instance is at http://docker-ci.dotcloud.com/waterfall
+Docker's buildbot instance is at http://docker-ci.Nerdness.com/waterfall
 
 For deployment instructions, please take a look at
 hack/infrastructure/docker-ci/Dockerfile

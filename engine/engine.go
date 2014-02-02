@@ -2,7 +2,7 @@ package engine
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"log"
 	"os"
@@ -69,7 +69,7 @@ func New(root string) (*Engine, error) {
 	// Unfortunately we can't test for the feature "does not cause a kernel panic"
 	// without actually causing a kernel panic, so we need this workaround until
 	// the circumstances of pre-3.8 crashes are clearer.
-	// For details see http://github.com/dotcloud/docker/issues/407
+	// For details see http://github.com/Nerdness/docker/issues/407
 	if k, err := utils.GetKernelVersion(); err != nil {
 		log.Printf("WARNING: %s\n", err)
 	} else {

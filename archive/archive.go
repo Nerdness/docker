@@ -6,7 +6,7 @@ import (
 	"compress/bzip2"
 	"compress/gzip"
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"io"
 	"io/ioutil"
 	"os"

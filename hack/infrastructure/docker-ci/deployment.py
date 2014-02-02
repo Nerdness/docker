@@ -27,7 +27,7 @@ REGION_ID = 4            # New York 2
 SIZE_ID = 62             # memory 2GB
 DO_IMAGE_USER = 'root'   # Image user on Digital Ocean
 API_URL = 'https://api.digitalocean.com/'
-DOCKER_PATH = '/go/src/github.com/dotcloud/docker'
+DOCKER_PATH = '/go/src/github.com/Nerdness/docker'
 DOCKER_CI_PATH = '/docker-ci'
 CFG_PATH = '{}/buildbot'.format(DOCKER_CI_PATH)
 
@@ -138,7 +138,7 @@ sudo('DEBIAN_FRONTEND=noninteractive apt-get install -q -y wget python-dev'
     ' aufs-tools make libfontconfig libevent-dev libsqlite3-dev libssl-dev')
 sudo('wget -O - https://go.googlecode.com/files/go1.2.linux-amd64.tar.gz | '
     'tar -v -C /usr/local -xz; ln -s /usr/local/go/bin/go /usr/bin/go')
-sudo('GOPATH=/go go get -d github.com/dotcloud/docker')
+sudo('GOPATH=/go go get -d github.com/Nerdness/docker')
 sudo('pip install -r {}/requirements.txt'.format(CFG_PATH))
 
 # Install docker and testing dependencies

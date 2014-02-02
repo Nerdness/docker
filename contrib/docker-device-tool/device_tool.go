@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/dotcloud/docker/graphdriver/devmapper"
+	"github.com/Nerdness/docker/graphdriver/devmapper"
 	"os"
 	"path"
 	"sort"

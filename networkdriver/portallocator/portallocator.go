@@ -2,7 +2,7 @@ package portallocator
 
 import (
 	"errors"
-	"github.com/dotcloud/docker/pkg/collections"
+	"github.com/Nerdness/docker/pkg/collections"
 	"net"
 	"sync"
 )

@@ -4,7 +4,7 @@ package devmapper
 
 import (
 	"fmt"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 )
 
 func stringToLoopName(src string) [LoNameSize]uint8 {

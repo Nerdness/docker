@@ -1,6 +1,6 @@
 # VERSION:        0.22
 # DOCKER-VERSION  0.6.3
-# AUTHOR:         Daniel Mizyrycki <daniel@dotcloud.com>
+# AUTHOR:         Daniel Mizyrycki <daniel@Nerdness.com>
 # DESCRIPTION:    Generate docker-ci daily report
 # COMMENTS:       The build process is initiated by deployment.py
                   Report configuration is passed through ./credentials.json at
@@ -9,7 +9,7 @@
 # TO_DEPLOY:      docker run report
 
 from ubuntu:12.04
-maintainer Daniel Mizyrycki <daniel@dotcloud.com>
+maintainer Daniel Mizyrycki <daniel@Nerdness.com>
 
 env PYTHONPATH /report
 

@@ -2,7 +2,7 @@ package proxy
 
 import (
 	"encoding/binary"
-	"github.com/dotcloud/docker/utils"
+	"github.com/Nerdness/docker/utils"
 	"log"
 	"net"
 	"sync"

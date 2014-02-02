@@ -15,7 +15,7 @@ and we will add the libraries here.
 +----------------------+----------------+--------------------------------------------+----------+
 | Language/Framework   | Name           | Repository                                 | Status   |
 +======================+================+============================================+==========+
-| Python               | docker-py      | https://github.com/dotcloud/docker-py      | Active   |
+| Python               | docker-py      | https://github.com/Nerdness/docker-py      | Active   |
 +----------------------+----------------+--------------------------------------------+----------+
 | Ruby                 | docker-client  | https://github.com/geku/docker-client      | Outdated |
 +----------------------+----------------+--------------------------------------------+----------+

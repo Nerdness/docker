@@ -41,8 +41,8 @@ EOF
 [ "$AWS_ACCESS_KEY" ] || usage
 [ "$AWS_SECRET_KEY" ] || usage
 [ "$GPG_PASSPHRASE" ] || usage
-[ -d /go/src/github.com/dotcloud/docker ] || usage
-cd /go/src/github.com/dotcloud/docker
+[ -d /go/src/github.com/Nerdness/docker ] || usage
+cd /go/src/github.com/Nerdness/docker
 [ -x hack/make.sh ] || usage
 
 RELEASE_BUNDLES=(
@@ -203,7 +203,7 @@ Key-Type: RSA
 Key-Length: 2048
 Passphrase: $GPG_PASSPHRASE
 Name-Real: Docker Release Tool
-Name-Email: docker@dotcloud.com
+Name-Email: docker@Nerdness.com
 Name-Comment: releasedocker
 Expire-Date: 0
 %commit
